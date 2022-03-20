@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FLYBYME/db-mixin#readme",
   "dependencies": {
+    "@moleculer/database": "git+https://github.com/moleculerjs/database.git",
     "hashids": "^2.2.10",
     "lodash": "^4.17.21",
     "mkdirp": "^1.0.4",
