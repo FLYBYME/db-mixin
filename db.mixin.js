@@ -42,7 +42,7 @@ module.exports = function (opts = {}) {
 				adapter: {
 					type: "MongoDB",
 					options: {
-						uri: process.env.MONGO_URI || "mongodb://localhost/kantab",
+						uri: process.env.MONGO_URI || "mongodb://localhost/data",
 						collection: opts.collection
 					}
 				}
