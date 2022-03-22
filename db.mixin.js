@@ -49,8 +49,8 @@ module.exports = function (opts = {}) {
 			});
 		}
 	}
-	
-	
+
+
 	const schema = {
 		mixins: [DbService(opts)],
 
@@ -102,3 +102,4 @@ module.exports = function (opts = {}) {
 
 	return schema;
 };
+module.exports.db = require("@moleculer/database")
